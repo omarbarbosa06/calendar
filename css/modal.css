@@ -1,5 +1,4 @@
 .modal {
-  display: flex;
   flex-direction: column;
   gap: 1.5rem;
   border: none;
@@ -13,6 +12,9 @@
   padding-block: 1.5rem;
   margin: initial;
   /* lo mismo que 0 */
+}
+.modal[open] {
+  display: flex;
 }
 
 .modal::backdrop {
