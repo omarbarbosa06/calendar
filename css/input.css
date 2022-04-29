@@ -1,0 +1,20 @@
+.miniCalendar-input {
+  padding-block: 0.625rem;
+  padding-inline: 2.2rem;
+  max-inline-size: 12.25rem;
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--gray10);
+}
+
+.miniCalendar-input i {
+  position: absolute;
+  font-size: 1rem;
+  left: 0.9rem;
+  top: calc(50% - 0.5rem);
+}
+.miniCalendar-input input {
+  border: none;
+  background-color: var(--gray10);
+  outline: none;
+}

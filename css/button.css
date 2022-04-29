@@ -50,7 +50,7 @@
   padding: 0.5rem;
 }
 .button.is-shadowed {
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .button i {

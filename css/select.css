@@ -1,6 +1,7 @@
 .select {
   padding-inline: 0.75rem;
   padding-block: 0.5rem;
+  padding-inline-end: 2rem;
   border-radius: 0.25rem;
   border: 1px solid var(--gray20);
   font: var(--button-button);
@@ -8,5 +9,5 @@
   appearance: none;
   background-image: url("../icons/select.svg");
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 0.5rem center;
 }

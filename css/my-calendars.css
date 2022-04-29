@@ -1,0 +1,32 @@
+.myCalendars {
+  inline-size: 12.25rem;
+}
+.myCalendars-header {
+  padding-inline: 0.25rem;
+  padding-block: 0.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: var(--body1-medium);
+}
+.myCalendars-header i {
+  font-size: 1.5rem;
+}
+.myCalendars-calendars {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 0.25rem;
+  padding-block: 0.6rem;
+  gap: 0.7rem;
+}
+.myCalendars-calendars span {
+  font: var(--body1-regular);
+}
+.myCalendars-calendarsCalendar i {
+  font-size: 1.5rem;
+}
+.myCalendars-calendarsCalendar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
